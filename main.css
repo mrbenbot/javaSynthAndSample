@@ -1,0 +1,84 @@
+html {
+  font-size: 10px;
+  background: url(https://images.alphacoders.com/582/thumb-1920-582252.jpg)
+    bottom center;
+  background-size: auto;
+}
+
+body,
+html {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.keys2 {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+#waveType {
+  position: relative;
+  top: 40px;
+}
+.key {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(255, 0, 0, 0.788);
+  text-shadow: 0 0 0.5rem black;
+}
+.blackKey {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(255, 0, 0, 0.788);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.25);
+  border-color: gold;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
+
+.sine {
+  display: flex;
+  justify-content: center;
+}
+#waveText {
+  position: absolute;
+  top: 35vh;
+}
